@@ -1,0 +1,492 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 700vh;
+}
+.sub__header{
+    width: 100%;
+    height: 40px;
+    background: black;
+    display: flex;
+    justify-content: end;
+    padding: 0 5%;
+}
+.sub__header-child{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sub__header-child h5 a{
+        color: white;
+}
+.sub__header-child__icons{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+    justify-content: space-between;
+}
+.navbar__first-child{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar__first-child p{
+    font-size: 17px;
+}
+.first__child{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.second__child{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-left: 1px solid rgb(209, 204, 204);
+}
+.navbar__second-child{
+    width: auto;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.navbar__treeth-child{
+    width: 150px;
+    height: 100%;
+    display: flex; 
+}
+.threeth__child{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(209, 204, 204);
+    font-size: 25px;
+}
+.fourth__child{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.wrapper{
+    width: 100%;
+    height: 580px;
+    background: url("./img/ValentinesDay_D2C_Homepage_banner_2880x1300_CODE_US_1944x.jpg") no-repeat center/cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.wrapper img{
+    width: 100%;
+    height: 100%;
+}
+.wrapper__box{
+    width: 28%;
+    height: 320px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+    flex-direction: column;
+    position: relative;
+}
+.wrapper__box h1{
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.wrapper__box h4{
+    padding-top: 40px;
+}
+.wrapper__box h4 i{
+    margin-left: 10px;
+    transform: rotate(-40deg);
+    font-size: 20px;
+}
+.wrapper__child{
+    width: 100%;
+    height: 150px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2%;
+    display: none;
+}
+.wrapper__child h4{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper__child i{
+    margin-left: 10px;
+    transform: rotate(-40deg);
+    font-size: 20px;
+}
+
+
+
+.box{
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.box__child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.child__one{    
+    height: 90%;
+    width: 320px;
+    padding: 0 0 18px 0;
+    
+}
+.child__one-box{
+    width: 100%;
+    height: 88%;
+    background: whitesmoke;
+
+}
+.child__one-box img{
+    width: 100%;
+    height: 100%;
+}
+.child__one h4{
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.child__one i{
+    transform: rotate(-40deg);
+    font-size: 18px;
+}
+
+
+.contianer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 2% 5%;
+}
+.contianer__child{
+    width: 25%;
+    height: 150px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.information{
+    width: 100%;
+    height: auto;
+    padding: 0 5%;
+    display: flex;
+    position: relative;
+}
+.information__child{
+    width: 45%;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.triangle__child{
+    width: 0px;
+    height: 0px;
+    border-bottom: 150px solid white;
+    border-left: 150px solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.information__child img{
+    width: 100%;
+    height: 80%;
+}
+.information__box{
+    width: 55%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    padding: 0 14%;
+    flex-direction: column;
+    gap: 30px;
+}
+.btn{
+    width: 200px;
+    height: 45px;
+    background: crimson;
+    color: white;
+    border: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn i{
+    transform: rotate(-40deg);
+    font-size: 18px;
+}
+
+
+
+.banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 5%;
+    background: whitesmoke;
+}
+.banner__child{
+    width: 50%;
+    height: auto;
+}
+.banner__child h1{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.banner__child p{
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.banner__img{
+    width: 80%;
+    height: 545px;
+    background: url("./photo/kf-1-hx3D-keycap-guild-wars-2-siege-Turtle_1728x.jpg") no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 5%;
+    color: white;
+    gap: 20px;
+}
+.banner__child-two{
+    width: 50%;
+    height: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: end;
+}
+.banner__img-two{
+    background: url("./photo/kf-1-hx3d-keycap-warframe-lotus_1728x.jpg") no-repeat center/cover;
+}
+
+
+.blog{
+    width: 100%;
+    height: auto;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.blog__parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+}
+.blog__child{
+    width: 25%;
+    height: 310px;
+}
+.blog__img{
+    width: 100%;
+    height: 50%;
+    background:         url("./photo/Call_of_Duty_MWIII_Blog_Banner_4_d813eeaf-9a6a-48bc-9c3f-83f390284b2b.jpg") no-repeat center/cover;
+}
+.blog__img2{
+    background: url("./photo/Modern-warfare-3-map-spots-highrise-2-3.jpg") no-repeat center/cover;
+}
+.blog__img3{
+    background: url("./photo/20231108_180918317_iOS.jpg") no-repeat center/cover;
+}
+.blog__text{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0 0 0;
+}
+.blog__text p{
+    font-size: 13px;
+}
+
+.quti{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    background: black;
+}
+.quti__child{
+    width: 50%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 8%;
+    text-align: center;
+    color: white;
+    background: black;
+}
+.quti__border{
+    border-left: 1px solid whitesmoke;
+
+}
+.quti__child p i{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.quti_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.quti_box input{
+    width: 65%;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.quti_box button{
+    width: 35%;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: url("./photo/data_image_svg+xml;…\ \(2\).svg") no-repeat center/cover;
+    display: flex;
+    padding: 5%;  
+    justify-content: space-between;  
+}
+.footer__parent{
+    display: flex;
+    width: 80%;
+}
+.footer__child{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__logo{
+    width: 20%;
+    height: 100%;
+    color: crimson;
+    text-align: end;
+}
+
+
+.down{
+    width: 100%;
+    height: 500px;
+    border: 3px solid red;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+}
+.down__log{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.down__child{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.down__child i {
+    font-size: 22px;
+}
+
+.down__box{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.down__box p a{
+    color: black;
+}
+
+.down__icons{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
