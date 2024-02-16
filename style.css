@@ -7,7 +7,7 @@
 .sub__header{
     width: 100%;
     height: 40px;
-    background: black;
+    background: #222;
     display: flex;
     justify-content: end;
     padding: 0 5%;
@@ -51,6 +51,9 @@
 }
 .navbar__first-child p{
     font-size: 17px;
+}
+.navbar i{
+    color: #222;
 }
 .first__child{
     width: auto;
@@ -454,6 +457,7 @@
     height: 80px;
     display: flex;
     align-items: center;
+    color: crimson;
 }
 .down__child{
     width: 100%;
@@ -484,4 +488,8 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.navbar h1{
+    color: red;
+
 }
